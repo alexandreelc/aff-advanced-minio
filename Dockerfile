@@ -1,4 +1,5 @@
 FROM nginx:1.27-alpine
+# Build marker: 2026-05-05-01
 
 # Custom server config (allows reading /.env used by frontend script)
 COPY nginx.conf /etc/nginx/conf.d/default.conf
