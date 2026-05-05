@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: aff-prodentim-web
+    container_name: aff-advanced-amino-web
     restart: unless-stopped
     ports:
       - "8080:80"
